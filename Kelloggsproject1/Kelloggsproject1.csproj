@@ -69,12 +69,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SearchforCerealsforsale.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SearchforCerealsforsale.feature</DependentUpon>
+    </Compile>
+    <Compile Include="SearchforDIstributors.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SearchforDIstributors.feature</DependentUpon>
+    </Compile>
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="SearchforCerealsforsale.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>SearchforCerealsforsale.feature.cs</LastGenOutput>
+    </None>
+    <None Include="SearchforDIstributors.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>SearchforDIstributors.feature.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="..\packages\Chromium.ChromeDriver.2.37\content\chromedriver.exe">
