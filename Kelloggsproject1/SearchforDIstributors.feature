@@ -24,5 +24,3 @@ Scenario: Search for Distributors in the UK
 	And I select Spain
 	And I clcik the search button
 	Then the different distributors of Kellogs products in Spain will be displayed on the screen
-
-	Hello Kitty
