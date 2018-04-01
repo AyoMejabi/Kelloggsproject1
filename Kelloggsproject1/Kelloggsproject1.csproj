@@ -69,6 +69,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SearchForCereal.cs" />
     <Compile Include="SearchforCerealsforsale.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
